@@ -1,34 +1,361 @@
-[
-  {
-    "id": "as1",
-    "author": "iUser_PL",
-    "rating": 5,
-    "date": "2024-11-01",
-    "text": "The app is sleek and super easy to use. Booking appointments has never been easier. Love the neon design!",
-    "avatar": "IU"
+{
+  "search_metadata": {
+    "id": "69c2720e3b93e3a39bf65de7",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/Fak6aE3-oK_9kHe2g0ZWaQ/69c2720e3b93e3a39bf65de7.json",
+    "created_at": "2026-03-24 11:14:22 UTC",
+    "processed_at": "2026-03-24 11:14:22 UTC",
+    "apple_reviews_url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?pageNumber=0&id=1625883975&sortOrdering=0&type=Purple+Software",
+    "raw_html_file": "https://serpapi.com/searches/Fak6aE3-oK_9kHe2g0ZWaQ/69c2720e3b93e3a39bf65de7.html",
+    "prettify_html_file": "https://serpapi.com/searches/Fak6aE3-oK_9kHe2g0ZWaQ/69c2720e3b93e3a39bf65de7.prettify",
+    "total_time_taken": 0.2
   },
-  {
-    "id": "as2",
-    "author": "Aleksandra B.",
-    "rating": 4,
-    "date": "2024-10-15",
-    "text": "Very intuitive interface. Had a minor glitch once but support fixed it immediately. Solid 4 stars.",
-    "avatar": "AB"
+  "search_parameters": {
+    "engine": "apple_reviews",
+    "product_id": "1625883975",
+    "country": "pl",
+    "sort": "mostrecent",
+    "page": "1"
   },
-  {
-    "id": "as3",
-    "author": "Paweł N.",
-    "rating": 5,
-    "date": "2024-09-30",
-    "text": "Best booking app I've used. Fast, reliable, and the UI is beautiful. Highly recommended!",
-    "avatar": "PN"
+  "search_information": {
+    "reviews_for_currrent_version": 26,
+    "reviews_for_current_version": 26,
+    "total_page_count": 20,
+    "reviews_results_state": "Results for exact ID number.",
+    "results_count": 25
   },
-  {
-    "id": "as4",
-    "author": "Marta S.",
-    "rating": 5,
-    "date": "2024-08-18",
-    "text": "Can't imagine going back to calling for appointments. This app makes everything seamless.",
-    "avatar": "MS"
+  "reviews": [
+    {
+      "position": 1,
+      "id": "13860749881",
+      "title": "Utrudnienia",
+      "text": "Po którejś aktualizacji apki przy zakupie biletów no okresowych nie da się automatycznie wystawić faktury tylko trzeba wysłać maila z prośbą o wystawienie faktury",
+      "rating": 1,
+      "review_date": "18 March 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Matzie2",
+        "author_id": "1509803626"
+      }
+    },
+    {
+      "position": 2,
+      "id": "13858720947",
+      "title": "Porażka",
+      "text": "Nikomu niepotrzebne, nie działające, mało intuicyjne, nie znam gorszej aplikacji",
+      "rating": 1,
+      "review_date": "17 March 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Natalkaxd",
+        "author_id": "888095630"
+      }
+    },
+    {
+      "position": 3,
+      "id": "13833884105",
+      "title": "Ma sa kra",
+      "text": "Od trzech dni nie jestem w stanie się zalogować w żaden sposób. Jestem bez biletu miesięcznego oraz zostałam zmuszona do jeżdżenia na jednorazowych biletach. Gratuluje pomysłu twórcom aplikacji. Mam nadzieję że w końcu ktoś wpadnie na pomysł przywrócenia jakdojadę bo nie mam zamiaru wydawać pieniędzy na ten system.",
+      "rating": 1,
+      "review_date": "10 March 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "saff204",
+        "author_id": "1554125483"
+      }
+    },
+    {
+      "position": 4,
+      "id": "13832617260",
+      "title": "Was",
+      "text": "Pojebalo",
+      "rating": 1,
+      "review_date": "10 March 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Nie lubię ztm :(",
+        "author_id": "1899169386"
+      }
+    },
+    {
+      "position": 5,
+      "id": "13831427967",
+      "title": "Dramat",
+      "text": "Nigdy nie czułem używając koleo zastanowienia się co w ogóle kupuje, tutaj nie wiadomo nic, począwszy od zalogowania się które nie działa za pośrednictwem Google mimo że funkcja istnieje, jakieś bilety masz, ale czy mnie powinny interesować nie wiem, nie intuicyjny interface, zamiast zrobić jak w koleo że najpierw wybierasz trasę i potem dostajesz propozycję biletów, to tutaj najpierw znajdź bilet, ale żaden z nich nie jest wytłumaczony, na zasadzie domyśl się czy to odpowiedni i dopiero wtedy jeśli w ogóle damy ci możliwość określenia jaka trasa. A najlepiej kup bilety na wszystkie możliwe warianty i wydaj całe Zarobione pieniądze, żenada, studenci są w stanie zrobić lepszą aplikacje, wystarczy ich poprosić.",
+      "rating": 1,
+      "review_date": "09 March 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Lageros",
+        "author_id": "484062621"
+      }
+    },
+    {
+      "position": 6,
+      "id": "13829172056",
+      "title": "Pathetic app",
+      "text": "Absolutely bad app. It just stops logging into the account I have always been using. When you force people to use the app, the least you do it make sure basics work as it should be.",
+      "rating": 1,
+      "review_date": "09 March 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Agnello_1",
+        "author_id": "935782950"
+      }
+    },
+    {
+      "position": 7,
+      "id": "13826990833",
+      "title": "Masakra",
+      "text": "Akorzystalne",
+      "rating": 1,
+      "review_date": "08 March 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "mmichalowska",
+        "author_id": "877549708"
+      }
+    },
+    {
+      "position": 8,
+      "id": "13815961890",
+      "title": "Tragedia",
+      "text": "Nic nie działa, przez to że wszedł ten system nie jestem w stanie już kupić normalnie biletu miesięcznego w Jakdojade. Poszedłem do oddziału zkm/fali we Wrzeszczu, spędziłem tam godzinę i nadal nic dosłownie nie mogę kupić biletu nigdzie",
+      "rating": 1,
+      "helpfulness_vote_information": "1 out of 1 customers found this review helpful",
+      "review_date": "05 March 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Oriolson",
+        "author_id": "1071541211"
+      }
+    },
+    {
+      "position": 9,
+      "id": "13804950473",
+      "title": "Nie da sie kupic biletu ani zalogowac do konta",
+      "text": "Od paru dni nie da sie zalogowac do konta fala za pomocą google. Zamiast tego pokazuje sie rozwalona biala strona z niebieskimi linkami. Niedlugo konczy mi sie bilet miesieczny, a nie mam zamiaru jezdzic na jednorazowych. Jesli to jest jedyna apka/strona gdzie mozna kupic bilet miesieczny to niech do cholery ta funkcja chociaz dziala",
+      "rating": 1,
+      "review_date": "02 March 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Marti_2115",
+        "author_id": "1689343104"
+      }
+    },
+    {
+      "position": 10,
+      "id": "13804151142",
+      "title": "Nie da się z tego korzystać",
+      "text": "Ta aplikacja jest poprostu niedokończona i nie powinna zostać wydana w takim stanie, żałosnym jest to że zrobili kopie popularnej aplikacji jak dojadę i to schrzanili",
+      "rating": 1,
+      "review_date": "02 March 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Strajk1",
+        "author_id": "1859485460"
+      }
+    },
+    {
+      "position": 11,
+      "id": "13792057416",
+      "title": "Tragedia",
+      "text": "Nie ma co tutaj oceniać, bo aplikacja jest pod każdym względem fatalna",
+      "rating": 1,
+      "review_date": "26 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Bartosz.sc",
+        "author_id": "842636961"
+      }
+    },
+    {
+      "position": 12,
+      "id": "13791409781",
+      "title": "Och :-(",
+      "text": "Jak coś dzieła to się tego nie naprawia. Bilety w dotychczasowym systemie działały. Dobrze działały. Teraz … niedopracowana aplikacja, problemy z logowaniem …szkoda kasy",
+      "rating": 1,
+      "review_date": "26 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Roadryder",
+        "author_id": "123080138"
+      }
+    },
+    {
+      "position": 13,
+      "id": "13758113234",
+      "title": "System Falanddndndn",
+      "text": "Najgorze gówno jakie można zainstalowac. Dlugo sie laduje,nie wygodne.Czasami nie pokazuje trasy.Jak do jade bylo wiele lepsze!!!!",
+      "rating": 1,
+      "review_date": "17 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Mieszkaniec trójmiasta 13",
+        "author_id": "1632162471"
+      }
+    },
+    {
+      "position": 14,
+      "id": "13757975999",
+      "title": "Powinni płacić za używanie tej apki",
+      "text": "Super aplikacja. Działa wolno, a mogłaby jeszcze gorzej. Jak usunie się aplikację z telefonu i powtórnie zainstaluje otrzymuje się w prezencie blokadę konta. Jak informuje aplikacja, jestem zalogowany na aplikacji na innym telefonie. Jak zwykle się potwierdza że jak jest coś robione na siłę to jest bardzo słabe. Jakby była alternatywa do biletów miesięcznych to by nikt nie korzystał z tej aplikacji.",
+      "rating": 1,
+      "review_date": "17 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Hector Hest",
+        "author_id": "1314763587"
+      }
+    },
+    {
+      "position": 15,
+      "id": "13755834992",
+      "title": "Teagiczne",
+      "text": "Wolne i bez sensu",
+      "rating": 1,
+      "review_date": "16 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Kuba23275",
+        "author_id": "1799912096"
+      }
+    },
+    {
+      "position": 16,
+      "id": "13752653383",
+      "title": "Aplikacja to żart",
+      "text": "Aplikacja nie działa, zalogowanie się graniczy z cudem, zaprojektowane przez idiotów.",
+      "rating": 1,
+      "review_date": "15 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "BazanBaznaky",
+        "author_id": "910261481"
+      }
+    },
+    {
+      "position": 17,
+      "id": "13749997264",
+      "title": "System tragedia",
+      "text": "Jeżeli posiadasz brak zasięgu, nie zaczyta ci kontroler biletu to no cóż. Nie wysiądziesz na przystanku którym chciałaś. Aplikacja tragiczna i przymuszanie nas do korzystania z niej jest poniżej jakiejkolwiek przyzwoitości.",
+      "rating": 1,
+      "review_date": "14 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Weronika L",
+        "author_id": "1890960875"
+      }
+    },
+    {
+      "position": 18,
+      "id": "13748976609",
+      "title": "😡😡😡",
+      "text": "Najgorsza apka w świecie, uniemożliwia zakup biletów, jest znęcaniem nad ludźmi!!! Nie polecam",
+      "rating": 1,
+      "review_date": "14 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Альтернатива_14",
+        "author_id": "1441714926"
+      }
+    },
+    {
+      "position": 19,
+      "id": "13736737046",
+      "title": "application contains bugs",
+      "text": "Social signin via Google did not work on my iPhone. During account registration I got email with the confirmation link that pointed me to the page without styles, and “you dont have an access to this page” error",
+      "rating": 1,
+      "review_date": "11 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "mr.Eugeniusz",
+        "author_id": "470770338"
+      }
+    },
+    {
+      "position": 20,
+      "id": "13730555595",
+      "title": "płynność aplikacji",
+      "text": "Aplikacja bardzo długo się ładuję i zawiesza",
+      "rating": 1,
+      "review_date": "09 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "gdynia11",
+        "author_id": "1108513002"
+      }
+    },
+    {
+      "position": 21,
+      "id": "13726522567",
+      "title": "Fatalna apka",
+      "text": "Instaluje ją na mrozie mając nadzieję, że szybko pójdzie. Okazuje się że trzeba założyć konto, no ok podaję namiary na google i klikam aktywuj w mailu. Ale to za mało. Znowu trzeba się zalogować. Każe wybrać spersalizowana albo niespersonalizowana. Nie wiem o co chodzi. Klikam niespersonalizowan i ide dalej. Wyszykuje miejsce docelowe, pokazuje ładnie linię tramwajową ale nie mogę kupić biletu. Wchodzę w bilety ale tam nie pamięta co wyszukałem, pokazuje mnóstwo biletów z różnych miast, odszukuje Gdańsk, ale muszę wybrać linię którą wcześniej wyszukałem. Mogę kupić bilet ale jeden - a potrzebuje jeszcze dla dzieci. Coś znajduje w tym temacie ale apka każe mi się spersonalizować - klikam, mam podać imię, wpisuje Marcin a ona twierdzi że to złe imie. Ręce mi odpadają, rezygnuje i wchodze do tramwaju. W środku jest biletomat ale mogę kupić tylko jeden bilet na karte, dobrze że mam kilka - kupuje dzieciom normalne bo nie ma opcji kupna ulgowych. Co za cyrk…",
+      "rating": 1,
+      "helpfulness_vote_information": "1 out of 1 customers found this review helpful",
+      "review_date": "08 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "BundyPL",
+        "author_id": "1790584656"
+      }
+    },
+    {
+      "position": 22,
+      "id": "13718775350",
+      "title": "so bad",
+      "text": "Whole FALA system is a failure. App doesn’t allow to paste BLIK. It loads very long, if you need to show a ticket fast it won’t happen.",
+      "rating": 1,
+      "helpfulness_vote_information": "1 out of 1 customers found this review helpful",
+      "review_date": "06 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "_alex_777",
+        "author_id": "1631299528"
+      }
+    },
+    {
+      "position": 23,
+      "id": "13715413001",
+      "title": "Prościej się nie da",
+      "text": "Po 15 latach skorzystałam z komunikacji miejskiej. Dla osoby która płaci telefonem system był bardzo prosty. ściągnęłam aplikację zarejestrowałam doładowałam kupiłam. W drodze powrotnej skorzystałam jeszcze z szybszej opcji tylko zbliżyłam do czytnika i już. Nie widzę żadnych problemów! Bilet aktywny w aplikacji wyświetla się na pomarańczową a stary w szarości wszystko jest opisane. Dla tych co nie mają problemu z płatnością telefonem, zbliżeniowi, zegarkiem spoko opcja a jak jeszcze umiesz ściągnąć aplikację i zapłacić blikiem to masz tańszy przejazd ;) polecam",
+      "rating": 5,
+      "review_date": "05 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Gówniana linia lotnicza",
+        "author_id": "1592400411"
+      }
+    },
+    {
+      "position": 24,
+      "id": "13707819235",
+      "title": "lipa",
+      "text": "Ta aplikacja w ogóle nie działa, bardzo często wyskakują błędy nie wiadomo z jakiego powodu, rozwiązaniem było usunięcie aplikacji i ponownie uruchomienie, brak słów",
+      "rating": 1,
+      "review_date": "03 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Bohater7",
+        "author_id": "1886722036"
+      }
+    },
+    {
+      "position": 25,
+      "id": "13703562049",
+      "title": "0",
+      "text": "Tak niedopracowanej aplikacji jeszcze nie widziałem.",
+      "rating": 1,
+      "review_date": "02 February 2026",
+      "reviewed_version": "Version 1.22.2",
+      "author": {
+        "name": "Bóg_wszystkiego",
+        "author_id": "1427102216"
+      }
+    }
+  ],
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?country=pl&engine=apple_reviews&page=1&product_id=1625883975&sort=mostrecent",
+    "next": "https://serpapi.com/search.json?country=pl&engine=apple_reviews&page=2&product_id=1625883975&sort=mostrecent"
   }
-]
+}
