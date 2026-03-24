@@ -86,7 +86,7 @@ export function transformGooglePlayStore(raw: GooglePlayRaw): Review[] {
       id: r.id,
       author: r.title,
       rating: r.rating,
-      date: r.iso_date ?? safeISODate(r.date),
+      date: safeISODate(r.iso_date ?? r.date),
       text: r.snippet as string,
       avatar: initials(r.title),
     }));
