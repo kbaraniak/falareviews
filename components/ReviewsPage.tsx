@@ -196,10 +196,10 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
 
       {/* Footer */}
       <footer
-        className="mt-12 py-6 text-center text-xs"
+        className="mt-12 py-6 text-center text-xs px-4"
         style={{ borderTop: "1px solid var(--border-subtle)", color: "var(--muted)" }}
       >
-        <p>© {new Date().getFullYear()} Faluj z Falą · Aplikacja nie jest powiązana z SystemFala i InnoBaltica · Wszystkie opinie pochodzą ze zweryfikowanych platform</p>
+        <p className="break-words">© {new Date().getFullYear()} Faluj z Falą · Aplikacja nie jest powiązana z SystemFala i InnoBaltica · Wszystkie opinie pochodzą ze zweryfikowanych platform</p>
       </footer>
     </main>
   );
