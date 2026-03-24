@@ -108,7 +108,7 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
 
       <div className="mx-auto max-w-5xl px-4 py-8">
         {/* Filter tabs */}
-        <div className="mb-4 flex flex-wrap gap-2">
+        <div className="mb-4 flex flex-wrap gap-2 sm:justify-center">
           {tabs.map((tab) => {
             const isActive = activeTab === tab.id;
             return (
@@ -137,7 +137,7 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
         </div>
 
         {/* Sort badges */}
-        <div className="mb-6 flex flex-wrap items-center gap-2">
+        <div className="mb-6 flex flex-wrap items-center gap-2 sm:justify-center">
           <span className="text-xs font-medium" style={{ color: "var(--muted)" }}>
             Sortuj:
           </span>
