@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { ReviewCard } from "./ReviewCard";
 
+type SortMode = "highest" | "lowest";
+
 export interface Review {
   id: string;
   author: string;
@@ -65,19 +67,29 @@ const sourceLabelMap: Record<Source, string> = {
   google_playstore: "Google Play Store",
 };
 
+const sortModes: { id: SortMode; label: string }[] = [
+  { id: "highest", label: "Highest" },
+  { id: "lowest", label: "Lowest" },
+];
+
 export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: ReviewsPageProps) {
   const [activeTab, setActiveTab] = useState<Source>("all");
+  const [sortMode, setSortMode] = useState<SortMode>("highest");
 
   const allReviews: (Review & { source: Source })[] = [
     ...googleMaps.map((r) => ({ ...r, source: "google_maps" as Source })),
     ...appleAppStore.map((r) => ({ ...r, source: "apple_appstore" as Source })),
     ...googlePlayStore.map((r) => ({ ...r, source: "google_playstore" as Source })),
-  ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  ];
 
-  const displayed =
+  const filtered =
     activeTab === "all"
       ? allReviews
       : allReviews.filter((r) => r.source === activeTab);
+
+  const displayed = [...filtered].sort((a, b) =>
+    sortMode === "highest" ? b.rating - a.rating : a.rating - b.rating
+  );
 
   const averageRating =
     displayed.length > 0
@@ -145,41 +157,8 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
       </header>
 
       <div className="mx-auto max-w-5xl px-4 py-10">
-        {/* Stats bar */}
-        <div className="mb-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
-          {tabs.map((tab) => {
-            const count =
-              tab.id === "all"
-                ? allReviews.length
-                : allReviews.filter((r) => r.source === tab.id).length;
-            const avg =
-              (tab.id === "all" ? allReviews : allReviews.filter((r) => r.source === tab.id))
-                .reduce((s, r) => s + r.rating, 0) /
-              (count || 1);
-            return (
-              <div
-                key={tab.id}
-                className="rounded-xl border p-4 text-center transition-all duration-200"
-                style={{
-                  borderColor: `${tab.color}44`,
-                  background: "var(--surface)",
-                  boxShadow: `0 2px 8px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.04)`,
-                }}
-              >
-                <p className="text-2xl font-bold" style={{ color: tab.color }}>
-                  {count}
-                </p>
-                <p className="mt-1 text-xs" style={{ color: "var(--muted)" }}>{tab.label}</p>
-                <p className="mt-1 text-sm font-semibold text-amber-400">
-                  ★ {count > 0 ? avg.toFixed(1) : "–"}
-                </p>
-              </div>
-            );
-          })}
-        </div>
-
         {/* Filter tabs */}
-        <div className="mb-8 flex flex-wrap gap-3">
+        <div className="mb-4 flex flex-wrap gap-3">
           {tabs.map((tab) => {
             const isActive = activeTab === tab.id;
             return (
@@ -201,6 +180,26 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
                 onMouseLeave={(e) => handleTabMouseLeave(e, isActive)}
               >
                 {tab.label}
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Sort badges */}
+        <div className="mb-8 flex flex-wrap gap-2">
+          {sortModes.map((mode) => {
+            const isActive = sortMode === mode.id;
+            return (
+              <button
+                key={mode.id}
+                onClick={() => setSortMode(mode.id)}
+                className={`rounded-full border px-4 py-1.5 text-xs font-semibold uppercase tracking-wide transition-all duration-200 focus:outline-none ${
+                  isActive
+                    ? "border-amber-400 bg-amber-50 text-amber-600"
+                    : "border-gray-200 text-gray-400 hover:border-gray-400 hover:text-gray-600"
+                }`}
+              >
+                {mode.label}
               </button>
             );
           })}
