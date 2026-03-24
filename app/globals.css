@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0f;
+  --foreground: #e2e8f0;
+
+  /* Neon accent colours */
+  --neon-white: #ffffff;
+  --neon-blue: #00d4ff;
+  --neon-green: #39ff14;
+  --neon-red: #ff2d55;
+  --neon-yellow: #ffe600;
+  --neon-purple: #bf5fff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-neon-white: var(--neon-white);
+  --color-neon-blue: var(--neon-blue);
+  --color-neon-green: var(--neon-green);
+  --color-neon-red: var(--neon-red);
+  --color-neon-yellow: var(--neon-yellow);
+  --color-neon-purple: var(--neon-purple);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Neon glow utilities */
+.neon-glow-blue {
+  box-shadow: 0 0 8px var(--neon-blue), 0 0 20px var(--neon-blue);
+  border-color: var(--neon-blue);
+  color: var(--neon-blue);
+}
+.neon-glow-green {
+  box-shadow: 0 0 8px var(--neon-green), 0 0 20px var(--neon-green);
+  border-color: var(--neon-green);
+  color: var(--neon-green);
+}
+.neon-glow-red {
+  box-shadow: 0 0 8px var(--neon-red), 0 0 20px var(--neon-red);
+  border-color: var(--neon-red);
+  color: var(--neon-red);
+}
+.neon-glow-yellow {
+  box-shadow: 0 0 8px var(--neon-yellow), 0 0 20px var(--neon-yellow);
+  border-color: var(--neon-yellow);
+  color: var(--neon-yellow);
+}
+.neon-glow-purple {
+  box-shadow: 0 0 8px var(--neon-purple), 0 0 20px var(--neon-purple);
+  border-color: var(--neon-purple);
+  color: var(--neon-purple);
+}
+.neon-glow-white {
+  box-shadow: 0 0 8px var(--neon-white), 0 0 20px var(--neon-white);
+  border-color: var(--neon-white);
+  color: var(--neon-white);
+}
+
+.neon-text-blue  { color: var(--neon-blue);   text-shadow: 0 0 8px var(--neon-blue),  0 0 20px var(--neon-blue); }
+.neon-text-green { color: var(--neon-green);  text-shadow: 0 0 8px var(--neon-green), 0 0 20px var(--neon-green); }
+.neon-text-red   { color: var(--neon-red);    text-shadow: 0 0 8px var(--neon-red),   0 0 20px var(--neon-red); }
+.neon-text-yellow{ color: var(--neon-yellow); text-shadow: 0 0 8px var(--neon-yellow), 0 0 20px var(--neon-yellow); }
+.neon-text-purple{ color: var(--neon-purple); text-shadow: 0 0 8px var(--neon-purple), 0 0 20px var(--neon-purple); }
+.neon-text-white { color: var(--neon-white);  text-shadow: 0 0 8px var(--neon-white), 0 0 20px var(--neon-white); }

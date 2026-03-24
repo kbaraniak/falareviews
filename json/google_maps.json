@@ -1,0 +1,42 @@
+[
+  {
+    "id": "gm1",
+    "author": "Anna K.",
+    "rating": 5,
+    "date": "2024-11-10",
+    "text": "Absolutely amazing experience! The team at FALA is incredibly professional and the results exceeded my expectations. Highly recommend!",
+    "avatar": "AK"
+  },
+  {
+    "id": "gm2",
+    "author": "Marek W.",
+    "rating": 4,
+    "date": "2024-10-22",
+    "text": "Great service overall. Friendly staff and quick turnaround. Will definitely come back.",
+    "avatar": "MW"
+  },
+  {
+    "id": "gm3",
+    "author": "Joanna P.",
+    "rating": 5,
+    "date": "2024-09-14",
+    "text": "One of the best experiences I've had. Top-quality work and very attentive to detail.",
+    "avatar": "JP"
+  },
+  {
+    "id": "gm4",
+    "author": "Tomasz R.",
+    "rating": 3,
+    "date": "2024-08-05",
+    "text": "Good service but had to wait a bit longer than expected. The end result was satisfying though.",
+    "avatar": "TR"
+  },
+  {
+    "id": "gm5",
+    "author": "Katarzyna M.",
+    "rating": 5,
+    "date": "2024-07-20",
+    "text": "Exceptional quality! I came with a complex request and they delivered perfectly. The staff is very knowledgeable.",
+    "avatar": "KM"
+  }
+]

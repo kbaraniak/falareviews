@@ -1,0 +1,34 @@
+[
+  {
+    "id": "as1",
+    "author": "iUser_PL",
+    "rating": 5,
+    "date": "2024-11-01",
+    "text": "The app is sleek and super easy to use. Booking appointments has never been easier. Love the neon design!",
+    "avatar": "IU"
+  },
+  {
+    "id": "as2",
+    "author": "Aleksandra B.",
+    "rating": 4,
+    "date": "2024-10-15",
+    "text": "Very intuitive interface. Had a minor glitch once but support fixed it immediately. Solid 4 stars.",
+    "avatar": "AB"
+  },
+  {
+    "id": "as3",
+    "author": "Paweł N.",
+    "rating": 5,
+    "date": "2024-09-30",
+    "text": "Best booking app I've used. Fast, reliable, and the UI is beautiful. Highly recommended!",
+    "avatar": "PN"
+  },
+  {
+    "id": "as4",
+    "author": "Marta S.",
+    "rating": 5,
+    "date": "2024-08-18",
+    "text": "Can't imagine going back to calling for appointments. This app makes everything seamless.",
+    "avatar": "MS"
+  }
+]
