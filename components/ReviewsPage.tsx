@@ -72,23 +72,11 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
         className="px-6 pt-10 pb-8 text-center"
         style={{ background: "var(--surface)", borderBottom: "1px solid var(--border-subtle)" }}
       >
-        <div
-          className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full"
-          style={{ background: "var(--icon-bg)" }}
-        >
-          <span className="text-2xl">⭐</span>
-        </div>
-        <p
-          className="mb-1 text-xs font-semibold uppercase tracking-[0.25em]"
-          style={{ color: "var(--muted)" }}
-        >
-          System Fala
-        </p>
         <h1 className="text-4xl font-extrabold tracking-tight" style={{ color: "var(--foreground)" }}>
-          Opinie Klientów
+          Faluj z Falą
         </h1>
         <p className="mt-2 text-sm" style={{ color: "var(--muted)" }}>
-          Co mówią nasi klienci na wszystkich platformach
+          Najnowsze opinie z świata Fali
         </p>
 
         {/* Rating summary bar */}
