@@ -12,9 +12,9 @@ const sourceConfig: Record<
 > = {
   all: {
     label: "ALL",
-    colorVar: "var(--neon-white)",
-    glowClass: "neon-glow-white",
-    badgeClass: "neon-text-white",
+    colorVar: "var(--neon-red)",
+    glowClass: "neon-glow-red",
+    badgeClass: "neon-text-red",
   },
   google_maps: {
     label: "Google Maps",
@@ -42,12 +42,7 @@ function StarRating({ rating }: { rating: number }) {
       {Array.from({ length: 5 }).map((_, i) => (
         <span
           key={i}
-          className={i < rating ? "text-yellow-300" : "text-white/20"}
-          style={
-            i < rating
-              ? { textShadow: "0 0 6px #ffe600, 0 0 12px #ffe600" }
-              : {}
-          }
+          className={i < rating ? "text-amber-500" : "text-gray-200"}
         >
           ★
         </span>
@@ -64,15 +59,15 @@ export function ReviewCard({ review, source, showSource = false }: ReviewCardPro
       className="group relative flex flex-col gap-4 rounded-2xl border p-5 transition-all duration-300 hover:scale-[1.02]"
       style={{
         borderColor: `${cfg.colorVar}44`,
-        background: "rgba(10,10,20,0.7)",
-        boxShadow: `0 0 0 1px ${cfg.colorVar}22`,
+        background: "#ffffff",
+        boxShadow: `0 1px 4px rgba(0,0,0,0.06)`,
       }}
       onMouseEnter={(e) => {
-        (e.currentTarget as HTMLElement).style.boxShadow = `0 0 18px ${cfg.colorVar}66, 0 0 6px ${cfg.colorVar}44`;
-        (e.currentTarget as HTMLElement).style.borderColor = `${cfg.colorVar}99`;
+        (e.currentTarget as HTMLElement).style.boxShadow = `0 4px 16px ${cfg.colorVar}33`;
+        (e.currentTarget as HTMLElement).style.borderColor = `${cfg.colorVar}88`;
       }}
       onMouseLeave={(e) => {
-        (e.currentTarget as HTMLElement).style.boxShadow = `0 0 0 1px ${cfg.colorVar}22`;
+        (e.currentTarget as HTMLElement).style.boxShadow = `0 1px 4px rgba(0,0,0,0.06)`;
         (e.currentTarget as HTMLElement).style.borderColor = `${cfg.colorVar}44`;
       }}
     >
@@ -84,7 +79,6 @@ export function ReviewCard({ review, source, showSource = false }: ReviewCardPro
           style={{
             borderColor: cfg.colorVar,
             color: cfg.colorVar,
-            boxShadow: `0 0 8px ${cfg.colorVar}66`,
             background: `${cfg.colorVar}11`,
           }}
         >
@@ -92,8 +86,8 @@ export function ReviewCard({ review, source, showSource = false }: ReviewCardPro
         </div>
 
         <div className="min-w-0 flex-1">
-          <p className="truncate text-sm font-semibold text-white/90">{review.author}</p>
-          <p className="text-xs text-white/40">
+          <p className="truncate text-sm font-semibold text-gray-800">{review.author}</p>
+          <p className="text-xs text-gray-400">
             {new Date(review.date).toLocaleDateString("en-GB", {
               day: "numeric",
               month: "short",
@@ -119,7 +113,7 @@ export function ReviewCard({ review, source, showSource = false }: ReviewCardPro
       <StarRating rating={review.rating} />
 
       {/* Review text */}
-      <p className="flex-1 text-sm leading-relaxed text-white/70">{review.text}</p>
+      <p className="flex-1 text-sm leading-relaxed text-gray-600">{review.text}</p>
     </article>
   );
 }
