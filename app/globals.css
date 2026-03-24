@@ -1,23 +1,29 @@
 @import "tailwindcss";
 
 :root {
-  --background: #060f1e;
-  --foreground: #e8f0ff;
+  /* Base */
+  --background: #F7F8FA;
+  --foreground: #111827;
 
   /* Surface / card layers */
-  --surface: #0a1628;
-  --surface-elevated: #0f1f38;
-  --border-subtle: #1a2d4f;
+  --surface: #FFFFFF;
+  --surface-elevated: #FFFFFF;
+  --border-subtle: #E5E7EB;
 
   /* Muted text */
-  --muted: #7a8fac;
+  --muted: #6B7280;
 
-  /* Accent colours */
-  --neon-blue: #0070c0;
-  --neon-green: #1a7f37;
-  --neon-red: #cc0022;
-  --neon-yellow: #b07800;
-  --neon-purple: #7c3aed;
+  /* Accent */
+  --accent: #FFCD00;
+  --accent-fg: #111827;
+
+  /* Icon background */
+  --icon-bg: #FFF9E0;
+
+  /* Platform colours */
+  --color-google-maps: #1A73E8;
+  --color-appstore: #555555;
+  --color-playstore: #34A853;
 }
 
 @theme inline {
@@ -27,52 +33,11 @@
   --color-surface-elevated: var(--surface-elevated);
   --color-border-subtle: var(--border-subtle);
   --color-muted: var(--muted);
-  --color-neon-blue: var(--neon-blue);
-  --color-neon-green: var(--neon-green);
-  --color-neon-red: var(--neon-red);
-  --color-neon-yellow: var(--neon-yellow);
-  --color-neon-purple: var(--neon-purple);
+  --color-accent: var(--accent);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
-
-.font-mono-display {
-  font-family: "JetBrains Mono", "Space Mono", "Fira Code", "Source Code Pro", ui-monospace, "Cascadia Code", Consolas, "Courier New", monospace;
-}
-
-/* Accent border/glow utilities — real glow on dark background */
-.neon-glow-blue {
-  box-shadow: 0 0 8px 1px rgba(0,112,192,0.55), 0 0 0 1.5px var(--neon-blue);
-  border-color: var(--neon-blue);
-  color: var(--neon-blue);
-}
-.neon-glow-green {
-  box-shadow: 0 0 8px 1px rgba(26,127,55,0.55), 0 0 0 1.5px var(--neon-green);
-  border-color: var(--neon-green);
-  color: var(--neon-green);
-}
-.neon-glow-red {
-  box-shadow: 0 0 8px 1px rgba(204,0,34,0.55), 0 0 0 1.5px var(--neon-red);
-  border-color: var(--neon-red);
-  color: var(--neon-red);
-}
-.neon-glow-yellow {
-  box-shadow: 0 0 8px 1px rgba(176,120,0,0.55), 0 0 0 1.5px var(--neon-yellow);
-  border-color: var(--neon-yellow);
-  color: var(--neon-yellow);
-}
-.neon-glow-purple {
-  box-shadow: 0 0 8px 1px rgba(124,58,237,0.55), 0 0 0 1.5px var(--neon-purple);
-  border-color: var(--neon-purple);
-  color: var(--neon-purple);
-}
-
-.neon-text-blue  { color: var(--neon-blue); }
-.neon-text-green { color: var(--neon-green); }
-.neon-text-red   { color: var(--neon-red); }
-.neon-text-yellow{ color: var(--neon-yellow); }
-.neon-text-purple{ color: var(--neon-purple); }

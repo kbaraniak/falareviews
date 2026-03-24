@@ -6,44 +6,18 @@ interface ReviewCardProps {
   showSource?: boolean;
 }
 
-const sourceConfig: Record<
-  Source,
-  { label: string; colorVar: string; glowClass: string; badgeClass: string }
-> = {
-  all: {
-    label: "ALL",
-    colorVar: "var(--neon-red)",
-    glowClass: "neon-glow-red",
-    badgeClass: "neon-text-red",
-  },
-  google_maps: {
-    label: "Google Maps",
-    colorVar: "var(--neon-blue)",
-    glowClass: "neon-glow-blue",
-    badgeClass: "neon-text-blue",
-  },
-  apple_appstore: {
-    label: "Apple App Store",
-    colorVar: "var(--neon-purple)",
-    glowClass: "neon-glow-purple",
-    badgeClass: "neon-text-purple",
-  },
-  google_playstore: {
-    label: "Google Play Store",
-    colorVar: "var(--neon-green)",
-    glowClass: "neon-glow-green",
-    badgeClass: "neon-text-green",
-  },
+const sourceConfig: Record<Source, { label: string; color: string }> = {
+  all: { label: "Wszystkie", color: "#6B7280" },
+  google_maps: { label: "Google Maps", color: "#1A73E8" },
+  apple_appstore: { label: "App Store", color: "#555555" },
+  google_playstore: { label: "Google Play", color: "#34A853" },
 };
 
 function StarRating({ rating }: { rating: number }) {
   return (
     <span className="flex gap-0.5">
       {Array.from({ length: 5 }).map((_, i) => (
-        <span
-          key={i}
-          className={i < rating ? "text-amber-500" : "text-gray-200"}
-        >
+        <span key={i} style={{ color: i < rating ? "#FFCD00" : "#E5E7EB", fontSize: "1rem" }}>
           ★
         </span>
       ))}
@@ -56,39 +30,30 @@ export function ReviewCard({ review, source, showSource = false }: ReviewCardPro
 
   return (
     <article
-      className="group relative flex flex-col gap-4 rounded-2xl border p-5 transition-all duration-300 hover:scale-[1.02]"
+      className="flex flex-col gap-3 p-5 transition-all duration-200 hover:shadow-md"
       style={{
-        borderColor: `${cfg.colorVar}33`,
         background: "var(--surface)",
-        boxShadow: `0 2px 8px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.04)`,
-      }}
-      onMouseEnter={(e) => {
-        (e.currentTarget as HTMLElement).style.boxShadow = `0 4px 20px ${cfg.colorVar}33, inset 0 1px 0 rgba(255,255,255,0.06)`;
-        (e.currentTarget as HTMLElement).style.borderColor = `${cfg.colorVar}66`;
-      }}
-      onMouseLeave={(e) => {
-        (e.currentTarget as HTMLElement).style.boxShadow = `0 2px 8px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.04)`;
-        (e.currentTarget as HTMLElement).style.borderColor = `${cfg.colorVar}33`;
+        borderRadius: "16px",
+        border: "1px solid var(--border-subtle)",
+        boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
       }}
     >
       {/* Top row */}
       <div className="flex items-center gap-3">
         {/* Avatar */}
         <div
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border text-xs font-bold"
-          style={{
-            borderColor: cfg.colorVar,
-            color: cfg.colorVar,
-            background: `${cfg.colorVar}1a`,
-          }}
+          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-sm font-bold"
+          style={{ background: "var(--icon-bg)", color: "#111827" }}
         >
           {review.avatar}
         </div>
 
         <div className="min-w-0 flex-1">
-          <p className="truncate text-sm font-semibold" style={{ color: "var(--foreground)" }}>{review.author}</p>
+          <p className="truncate text-sm font-semibold" style={{ color: "var(--foreground)" }}>
+            {review.author}
+          </p>
           <p className="text-xs" style={{ color: "var(--muted)" }}>
-            {new Date(review.date).toLocaleDateString("en-GB", {
+            {new Date(review.date).toLocaleDateString("pl-PL", {
               day: "numeric",
               month: "short",
               year: "numeric",
@@ -98,10 +63,10 @@ export function ReviewCard({ review, source, showSource = false }: ReviewCardPro
 
         {showSource && (
           <span
-            className={`shrink-0 rounded-full border px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${cfg.badgeClass}`}
+            className="shrink-0 rounded-full px-2.5 py-0.5 text-[10px] font-semibold"
             style={{
-              borderColor: `${cfg.colorVar}44`,
-              background: `${cfg.colorVar}18`,
+              background: "#F3F4F6",
+              color: cfg.color,
             }}
           >
             {cfg.label}
@@ -112,8 +77,14 @@ export function ReviewCard({ review, source, showSource = false }: ReviewCardPro
       {/* Stars */}
       <StarRating rating={review.rating} />
 
+      {/* Divider */}
+      <div style={{ borderTop: "1px solid var(--border-subtle)" }} />
+
       {/* Review text */}
-      <p className="flex-1 text-sm leading-relaxed" style={{ color: "var(--muted)" }}>{review.text}</p>
+      <p className="flex-1 text-sm leading-relaxed" style={{ color: "var(--muted)" }}>
+        {review.text}
+      </p>
     </article>
   );
 }
+
