@@ -1,0 +1,42 @@
+[
+  {
+    "id": "gp1",
+    "author": "AndroidFan92",
+    "rating": 5,
+    "date": "2024-11-05",
+    "text": "Great app! Works flawlessly on my Android. The notifications are timely and the booking process is smooth.",
+    "avatar": "AF"
+  },
+  {
+    "id": "gp2",
+    "author": "Łukasz K.",
+    "rating": 4,
+    "date": "2024-10-28",
+    "text": "Really handy app. Would love to see more customization options, but overall a solid experience.",
+    "avatar": "ŁK"
+  },
+  {
+    "id": "gp3",
+    "author": "Ewa T.",
+    "rating": 5,
+    "date": "2024-10-01",
+    "text": "Excellent! The app is lightweight and fast. No crashes whatsoever. Customer support is also top-notch.",
+    "avatar": "ET"
+  },
+  {
+    "id": "gp4",
+    "author": "Rafał D.",
+    "rating": 3,
+    "date": "2024-09-10",
+    "text": "The app is functional but the dark mode needs work. Hoping for improvements in the next update.",
+    "avatar": "RD"
+  },
+  {
+    "id": "gp5",
+    "author": "Natalia O.",
+    "rating": 5,
+    "date": "2024-07-25",
+    "text": "Perfect app for managing my appointments. The reminders feature is a lifesaver. 5 stars without hesitation!",
+    "avatar": "NO"
+  }
+]
