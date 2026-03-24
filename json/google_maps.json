@@ -1,42 +1,513 @@
-[
-  {
-    "id": "gm1",
-    "author": "Anna K.",
-    "rating": 5,
-    "date": "2024-11-10",
-    "text": "Absolutely amazing experience! The team at FALA is incredibly professional and the results exceeded my expectations. Highly recommend!",
-    "avatar": "AK"
+{
+  "search_metadata": {
+    "id": "69c272e18c60ca343825b721",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/Yflc6rUqd4XqjNXuDCezJg/69c272e18c60ca343825b721.json",
+    "created_at": "2026-03-24 11:17:53 UTC",
+    "processed_at": "2026-03-24 11:17:53 UTC",
+    "google_play_product_url": "https://play.google.com/store/apps/details?id=pl.assecods.innompa.systemfala&hl=en&gl=pl&showAllReviews=true",
+    "raw_html_file": "https://serpapi.com/searches/Yflc6rUqd4XqjNXuDCezJg/69c272e18c60ca343825b721.html",
+    "prettify_html_file": "https://serpapi.com/searches/Yflc6rUqd4XqjNXuDCezJg/69c272e18c60ca343825b721.prettify",
+    "total_time_taken": 1.02
   },
-  {
-    "id": "gm2",
-    "author": "Marek W.",
-    "rating": 4,
-    "date": "2024-10-22",
-    "text": "Great service overall. Friendly staff and quick turnaround. Will definitely come back.",
-    "avatar": "MW"
+  "search_parameters": {
+    "engine": "google_play_product",
+    "product_id": "pl.assecods.innompa.systemfala",
+    "hl": "en",
+    "gl": "pl",
+    "store": "apps",
+    "all_reviews": "true",
+    "platform": "phone",
+    "sort_by": "1"
   },
-  {
-    "id": "gm3",
-    "author": "Joanna P.",
-    "rating": 5,
-    "date": "2024-09-14",
-    "text": "One of the best experiences I've had. Top-quality work and very attentive to detail.",
-    "avatar": "JP"
-  },
-  {
-    "id": "gm4",
-    "author": "Tomasz R.",
-    "rating": 3,
-    "date": "2024-08-05",
-    "text": "Good service but had to wait a bit longer than expected. The end result was satisfying though.",
-    "avatar": "TR"
-  },
-  {
-    "id": "gm5",
-    "author": "Katarzyna M.",
-    "rating": 5,
-    "date": "2024-07-20",
-    "text": "Exceptional quality! I came with a complex request and they delivered perfectly. The staff is very knowledgeable.",
-    "avatar": "KM"
+  "reviews": [
+    {
+      "id": "a0852b17-49c6-4400-85f1-c784bcc2d74d",
+      "title": "Настя Кудрик",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocIU4Ix24TkPu9jwqPKlCLAfkATb_XgDGMS1MwWnJsC46B8L9g=mo",
+      "rating": 1.0,
+      "snippet": "This app is extremely unreliable. Sometimes there’s no option to buy a ticket for certain cities. Other times, it’s impossible to find the bus or tram number I need. Occasionally, it even charges me for a ticket, but the ticket never appears in the app. And when I can see the ticket, the QR code often won’t load. Sometimes the app doesn’t load at all, making it completely unusable.",
+      "likes": 27,
+      "date": "September 12, 2025",
+      "iso_date": "2025-09-12T14:56:58Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "If you cannot see all transport organizers, please remove the app from the stack and reopen it. For ticket control, you can also use the QR code from your account: Account → Avatar in the top-left corner, this account QR shows all your tickets and account info. For other issues: https://reklamacje.systemfala.pl or by phone: +48 585 733 585",
+        "date": "September 15, 2025",
+        "iso_date": "2025-09-15T11:14:20Z"
+      }
+    },
+    {
+      "id": "6e1b98df-f139-4eb2-ba7e-d2090f16356f",
+      "title": "Edvinas B",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjWxmpTPbixZIu91xdId1BCs-d-qtBtQSs5zta22bMdGMS8Eou9V",
+      "rating": 1.0,
+      "snippet": "One of the worst apps I've ever used. To add a payment card to the app, you have to play for half a day and it probably won't work anyway, because there will be an error. Even to make the simplest transfer to the app, you have to specify not only the card number and CVV, but also the city, country, exact address, even the postal code, because email alone won't be enough.And when you fill everything in,it doesn't mean that the money will be transferred, because it probably won't work and again...",
+      "likes": 28,
+      "date": "September 21, 2025",
+      "iso_date": "2025-09-21T09:51:11Z"
+    },
+    {
+      "id": "9b2d1e43-d6b3-4629-ab9c-abdc10bb414a",
+      "title": "Suz Suziński",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjUI8LjAQmtfGquiGQdsf2Q0ngQztQsA6pLBUGVaR38dxK4uT7w",
+      "rating": 1.0,
+      "snippet": "had a data retrival error that left me unable to open the app. what does the official website say? log out and log in again. in an app that doesn't open. only reinstalling fixed it. what's the point of forcing everyone to use an app that doesn't even work half the time?",
+      "likes": 7,
+      "date": "January 12, 2026",
+      "iso_date": "2026-01-12T21:52:36Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "We experienced temporary issues with the app, which have been resolved in the latest version. If you continue to experience any problems, please contact us at https://reklamacje.systemfala.pl/ or call +48 585 733 585",
+        "date": "January 14, 2026",
+        "iso_date": "2026-01-14T13:24:41Z"
+      }
+    },
+    {
+      "id": "8a929b57-20ba-4d8e-9766-1836e9b00baf",
+      "title": "Piotr Zdanowicz",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjXNv6sefC9udFtkfau31k4CKLwo1OhQ9dgmRHTaRCou2J9xXu9Cgw",
+      "rating": 1.0,
+      "snippet": "the app loads for almost a minute, errors on every step, cant purchase tickets 50% of the time, cant log in other 50%, and notifications do not come so you miss your ticket renewal. and you cant purchase monthly tickets in other apps cause they know if there was a choice, noone would use this junk",
+      "likes": 1,
+      "date": "March 10, 2026",
+      "iso_date": "2026-03-10T11:12:54Z"
+    },
+    {
+      "id": "754e8083-7d9e-40ef-baf9-b49574401003",
+      "title": "Agnieszka Klingiert",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjWkIyMD8Wgk1jAwBO5fyKwWaeWGcwkj-mr3SZBOv7fSBb1FbMbN",
+      "rating": 1.0,
+      "snippet": "What a waste of space. Takes ages to load, cant really do anything with it and I almost got a fee for not having a valid ticket because it wasn't starting and I couldnt show controller my monthly ticket! What an etherally wise (sarcasm) idea to let only one provider sell monthly tickets. That isnt really legal also.",
+      "likes": 4,
+      "date": "February 11, 2026",
+      "iso_date": "2026-02-11T20:17:27Z"
+    },
+    {
+      "id": "42aec1e7-5025-4516-b542-42bf235dab4e",
+      "title": "Jakub Stosik",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocJG1MF92TkN4fX_nHyDgTBIpf2vemwBcuurbNYsprJ-XLopyQ=mo",
+      "rating": 1.0,
+      "snippet": "well, today it was control of the tickets on the tram, and the app just didn't launch. it came out with an error \"data retrieval error\" and probably it was the server's fault, so... it sucks completely",
+      "likes": 5,
+      "date": "January 09, 2026",
+      "iso_date": "2026-01-09T15:14:10Z"
+    },
+    {
+      "id": "d7344d1a-eac1-4c47-bce9-b0c06320e724",
+      "title": "Manuik",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjX8r04_4gp58hN2DDpfFA9BPJIRvGIs5fXXK9OGkr-o5fgyOESb",
+      "rating": 1.0,
+      "snippet": "Data fetch error all the time I try to open the app. Fixed after reopen the app after ≈10 times. I bought a monthly pass, but app just doesn't work. What the point of monopolizing passes if you can't even make at least working app. The only thing working good here is payment :)))",
+      "likes": 6,
+      "date": "January 08, 2026",
+      "iso_date": "2026-01-08T13:32:29Z"
+    },
+    {
+      "id": "26df751e-a81a-43d9-8ae4-2f35e8afcb8d",
+      "title": "Ben Younger",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjU9cGvw78mQR6O-Gf3j0Mz8ob5HUvFOTkBghHG603PhTsuIZdHHkQ",
+      "rating": 1.0,
+      "snippet": "What a useless app. Failed to create an account after several attempts with error messages. A school kid could do a better job",
+      "likes": 3,
+      "date": "February 10, 2026",
+      "iso_date": "2026-02-10T19:41:10Z"
+    },
+    {
+      "id": "9169df4b-66c0-4661-9796-66b31bf81b56",
+      "title": "Codin Master",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjUJKlBD2kbeucigE-GF1c_CasIB0Lxesai0L1L-t4sjs4ljsrBX",
+      "rating": 1.0,
+      "snippet": "When I try to log in, app says \"Problem while logging in\" (Reinstall did not help). While I was logged in, I have bought a monthly ticket, but after few days, the app logged me out and I have no access to the ticket that I bought. I am curious what will happen during the ticket control.",
+      "likes": 17,
+      "date": "November 01, 2025",
+      "iso_date": "2025-11-01T08:17:19Z"
+    },
+    {
+      "id": "fba0fbdc-de33-46c7-8561-620501a4eb84",
+      "title": "Pierre Desvignes",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjV9N-331h994VwSkvlMOXbE00Eu9WwBVio2S9uENz2dNxSWFjGTxQ",
+      "rating": 1.0,
+      "snippet": "Completely broken and has never worked. It doesn't even open, how is this allowed on the store.",
+      "likes": 3,
+      "date": "January 19, 2026",
+      "iso_date": "2026-01-19T09:51:28Z"
+    },
+    {
+      "id": "5d443301-d35a-48f9-9a0f-2aecdebfdd40",
+      "title": "Karol Jank",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocIY8jrjD59TmG57Kv4dxND3zpibV1z2M3ASwxPJkyNNczlUhHM=mo",
+      "rating": 1.0,
+      "snippet": "The app doesn't even open. I just get get \"data retrieval error\" and it tries to load indefinitely.",
+      "likes": 3,
+      "date": "January 10, 2026",
+      "iso_date": "2026-01-10T02:32:02Z"
+    },
+    {
+      "id": "bb56c3f9-f498-40ea-9110-5fee10fe0499",
+      "title": "Marek Lewandowski",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjXaOUBmFpwVbFZ282kVmCzdfhocdRc09wYZ3xcD5d6CpUYdvJepeg",
+      "rating": 1.0,
+      "snippet": "This app is abysmal. It's extremely slow, doesn't allow you to just buy all the tickets you need for a connection automatically - you have to figure that out on your own, weeding through offers from irrelevant carriers, it's unclear on how to pay at all (prepay?) and each step, no matter how trivial, takes ages. GOD forbid you switch to tickets from connection search and need to go back: you need to search again! and it takes a full twenty seconds of WAITING to get back to where you were.",
+      "likes": 3,
+      "date": "November 07, 2025",
+      "iso_date": "2025-11-07T18:31:03Z"
+    },
+    {
+      "id": "8cb10f37-228b-436a-8ce0-b1d24f7fe27f",
+      "title": "Piern1k",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjViM6YM2jgg6tvo56mHCi-OLic2VJL43olyibbRPaNNL4OaFA",
+      "rating": 1.0,
+      "snippet": "on many occasions app has hard time logging me in, genuanly faster to say inspector your phone number",
+      "likes": 2,
+      "date": "January 30, 2026",
+      "iso_date": "2026-01-30T16:29:59Z"
+    },
+    {
+      "id": "8be9bf89-fa4f-49b1-83cd-c5e2be45dfa9",
+      "title": "Isak Wertwein",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocLxxuEEu85vnagv37GMpzcikw2C_H8dXijL6PLOp9ZmA-UzPVA=mo",
+      "rating": 1.0,
+      "snippet": "Can't login or create an account, it just tells me there was a problem when I click the login button...",
+      "likes": 3,
+      "date": "November 24, 2025",
+      "iso_date": "2025-11-24T14:10:26Z"
+    },
+    {
+      "id": "b5d3c1ea-8b74-4d40-999f-d2eb7a6a94f1",
+      "title": "Yevhen Buriak",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocKvkpQK-BzJjxSzkTGPto91HUo6LZDoOqkVDFWm-DfdjGMtEg=mo",
+      "rating": 1.0,
+      "snippet": "Why is there no clear timetable per transport? It writes (in 27 minutes)? Why does it have to load the entire bus schedule in order to buy a ticket? Why is there no login in the app; it redirects to a browser? Why do I have to log in each time I close the app? Map scroll is broken half of the time. Why does it prompt for invoice info each time? Why do I have to select a line in order to buy a ticket, and not just write it?",
+      "likes": 6,
+      "date": "October 11, 2025",
+      "iso_date": "2025-10-11T13:26:27Z"
+    },
+    {
+      "id": "ccbb0432-413c-4007-b320-36c454ef2f29",
+      "title": "Aga Lech",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjVyO4-GvBRWNhPig4jM6Ir62V7rPAZcIVYdB4Y7WlsTh3WlSZws",
+      "rating": 1.0,
+      "snippet": "why are you making this difficult. it's just. buying. tickets.",
+      "likes": 1,
+      "date": "January 17, 2026",
+      "iso_date": "2026-01-17T14:23:23Z"
+    },
+    {
+      "id": "a8fccec9-6861-4b77-a042-069776979481",
+      "title": "lyteloli",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjXTphCSfmwbJVv-f_TMemn_3zmsMN4DCL_pTyknJzcBGetyIVK3",
+      "rating": 3.0,
+      "snippet": "It was a very silly decision to give public access to an app meant to buy tickets, without any functionality to buy a ticket at the moment. Obviously everyone is unhappy and ratings are low because at this point this app is useless. You should've just asked people to wait a bit longer but deliver at least some basic functions (a copy of jakdojade for example) for the first release. Shame.",
+      "likes": 24,
+      "date": "February 08, 2024",
+      "iso_date": "2024-02-08T12:32:51Z"
+    },
+    {
+      "id": "5bce7f56-08fe-4b54-8c9c-07f69d7d3c16",
+      "title": "Jacek Janiszewski",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocINBeZMTe-Qf_6a9NIYBL4hhPZ-GwaRFR1TbOuuuHTxqaWauA=mo",
+      "rating": 1.0,
+      "snippet": "Problem while logging in, over and over. S22 ultra, permissions granted, tried reinstalling. In case of ticket control, I'll pretend I'm about to vomit and then exit the bus immediately on the next stop. I'd rather pay, but that doesn't seem like an option right now. Fala gorsza niż w wojsku.",
+      "likes": 13,
+      "date": "September 04, 2025",
+      "iso_date": "2025-09-04T06:50:41Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "We kindly ask to maintain respectful language in reviews. For ticket control, you can add a payment card as an identifier, order a FALA card, or add your phone number to your account and present one of these during inspection. Please log in manually with your email and password, check “Remember me,” and avoid using Google or other login methods.",
+        "date": "September 12, 2025",
+        "iso_date": "2025-09-12T10:20:32Z"
+      }
+    },
+    {
+      "id": "e3018fc2-1d6c-412c-9747-a65cb531bb4a",
+      "title": "blck “dprsdsfck” hoe",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjU9RamoIPMv46TlFM116ILbGL0GrK5JS23W5K3cDuIY95wlhVA",
+      "rating": 1.0,
+      "snippet": "why would they reinvent the wheel? it was great when people could buy monthly tickets from jakdojade but no, we are not allowed to have nice things that work fine. and that deserved 1.1 star review says everything there is to be said. I don't want to give my personal information like PESEL along with other personal information to some sketchy app made by sketchy corporation. I just want to buy a ticket, no more no less. why do you require a name and last name? it's irrelevant if I give my PESEL",
+      "likes": 19,
+      "date": "September 15, 2025",
+      "iso_date": "2025-09-15T14:28:00Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "We do not collect any personal data beyond what is required by the transport organizers for monthly ticket purchases, just like in JakDojadę: PESEL is required to validate the ticket. All data is protected according to GDPR: https://systemfala.pl/help/dokumenty/zasady-ochrony-prywatnosci",
+        "date": "September 15, 2025",
+        "iso_date": "2025-09-15T11:10:46Z"
+      }
+    },
+    {
+      "id": "3fb486b1-e76a-492d-be62-38cdcb50425b",
+      "title": "Jakub J",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjVe78g70YxsotkwuVvjtgZB-HRVDYwiI_fC3JaZCWcp-iYinug",
+      "rating": 1.0,
+      "snippet": "Non-functional. You are not able to open the log in screen. You instantly get error message. Reinstalled the app. Nothing chaned. \"Problem while logging in\" every time I press \"Sign in\" button.",
+      "likes": 23,
+      "date": "August 03, 2025",
+      "iso_date": "2025-08-03T07:38:56Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "Please check which browser is set as the default we recommend Chrome, Opera, or Samsung Internet(support for Firefox and Edge is still in progress).Clear the app’s data and cache, then reinstall it.If the problem persists, please create an account at https://systemfala.pl and contact us via https://reklamacje.systemfala.pl or call +48 585 733 585.",
+        "date": "August 04, 2025",
+        "iso_date": "2025-08-04T11:21:48Z"
+      }
+    },
+    {
+      "id": "b3c9dbad-d431-4cf2-9153-a6204b3edbaa",
+      "title": "Jacek Tomaszewski",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjUJ25GTQE4-AnAZuaZGAep8R66W-MKSnW-mt-d1tScVj7M3lhDLBw",
+      "rating": 2.0,
+      "snippet": "I managed to buy SKM ticket. but it was one of the worst experiences ever. took me 5-10 minutes, something that should take you just a few clicks. I'm pretty sure that many people wouldn't manage it. buying the ticket was so hidden.",
+      "likes": 8,
+      "date": "August 21, 2025",
+      "iso_date": "2025-08-21T07:23:58Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "Thank you for your feedback. We’re sorry for the inconvenience. For help, visit https://reklamacje.systemfala.pl or call +48 585 733 585. We are continuously working on improving the app to make the ticket purchase process smoother.",
+        "date": "August 22, 2025",
+        "iso_date": "2025-08-22T11:10:19Z"
+      }
+    },
+    {
+      "id": "2d8d506b-9d92-4245-8ef1-171dc9fa12e1",
+      "title": "Lasha",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjU_sY1XREKvNbvKrYrC0Ez42BvO_DhfjbTOmLKXgm0eIeysTyA2",
+      "rating": 1.0,
+      "snippet": "Asks for login each time , loads forever and doesn't work.",
+      "likes": 3,
+      "date": "November 10, 2025",
+      "iso_date": "2025-11-10T18:36:26Z"
+    },
+    {
+      "id": "f118469b-e33c-47f5-8e12-ac3e8b842daa",
+      "title": "Sylvia H.",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocIW7WDHFTEGKGw7xxEtmjEnz40UvKr25YkSAuoOrKTGIx1f1A=mo",
+      "rating": 1.0,
+      "snippet": "Not intuitive, not working properly, disaster",
+      "likes": 3,
+      "date": "December 23, 2025",
+      "iso_date": "2025-12-23T09:05:34Z"
+    },
+    {
+      "id": "07d2b99e-7288-45a3-abec-7c93b51e8fb3",
+      "title": "LosAngelesEventPhotography com (Listing Media . net)",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjWRlbHdRu3LdEEyawaPD_RahD3UdSBRvDYENb4FbqPPBwYKuZUt8Q",
+      "rating": 1.0,
+      "snippet": "polish developers are good coders but functionality is horrible. I am standing on train station next to fala garbage box. The app says next train on 2 hours but I know it's coming in 10 min. Why I need to use that garbage box the actually installed 3 of them $$ when the app does not work. Koleo I can just use app no need for expensive box",
+      "likes": 10,
+      "date": "October 09, 2024",
+      "iso_date": "2024-10-09T09:08:31Z"
+    },
+    {
+      "id": "a5eb3ad9-4302-4de2-b46c-289a51b43960",
+      "title": "Павел Лукашик",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjVkDcquKtAAjy0jg-XlgrqEmwvYSVuSBoXUrRrZoe1NRwZNjLB2",
+      "rating": 1.0,
+      "snippet": "I faced two main troubles: - I need to login each time I open the app. - I cannot buy any ticket as long as \"This feature is only available to device owner\". Well, who am I in this case? Annoying and useless. Please fix and test your app before releasing and deprecating alternatives.",
+      "likes": 22,
+      "date": "July 04, 2025",
+      "iso_date": "2025-07-04T15:38:44Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "Please uninstall and reinstall the app, as one account is assigned to one device. The message \"This feature is only available to the device owner\" may be due to a previous installation. For further assistance, please contact us via the form: https://reklamacje.systemfala.pl, email: info@systemfala.pl, or phone: +48 585 733 585.",
+        "date": "July 07, 2025",
+        "iso_date": "2025-07-07T07:22:47Z"
+      }
+    },
+    {
+      "id": "8aaf532b-c84c-47be-8954-87d13a2b2bf6",
+      "title": "Volodya Ivakhnenko",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocJcQOQxYyY3bH6O0yrJ6u4fzxUZGzzzgKcpXooMnBIPJJBn6Q=mo",
+      "rating": 1.0,
+      "snippet": "Installed app, put money there. Next day getting session error with recommendation to reinstall app. After reinstallation cannot login, it says account is used, reinstall the app or use another device. Same thing after reinstallation.",
+      "likes": 10,
+      "date": "May 08, 2024",
+      "iso_date": "2024-05-08T09:48:44Z"
+    },
+    {
+      "id": "b507ef55-2b79-4902-b690-f847bb7aeaf0",
+      "title": "Marcus Carvalho",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjUqRZVspJLfjdAnPFXiCAkrNa_Dz0xD9s2fhnuZ1qrw6S1DLef5Uw",
+      "rating": 1.0,
+      "snippet": "As a software developer I feel shame someone was able to publish an app that does not work at all. No QA process was used in the development of this application. The worst part is that other apps that work fine are forbidden to sell season tickets while this app is not even finished. Edit: The application is garbage, and the publisher does not know what QA means. It seems to be wrapper to a web application, the login redirects you to the web login which is a lousy job.",
+      "likes": 39,
+      "date": "August 14, 2025",
+      "iso_date": "2025-08-14T13:41:26Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "The app was thoroughly tested before release. It may sometimes run slower because it requires a constant internet connection. We are continuously working to improve its performance. Please feel free to report any issues via https://reklamacje.systemfala.pl or call +48 585 733 585.",
+        "date": "August 12, 2025",
+        "iso_date": "2025-08-12T12:08:07Z"
+      }
+    },
+    {
+      "id": "1d3eecd8-0c5d-4d65-a714-e3017ab38ce0",
+      "title": "G W",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocJx4sNJIaEqPhIWssKHwokUkl5LfzDFMG6a5bzqhNtvChy4=mo",
+      "rating": 1.0,
+      "snippet": "Disaster and disappointing, a month ago I bought 4 tickets to use them during the day , I scanned the first ticket scan works fine, when I chose the second destination, I discovered that other tickets are invalid.. the machine didn't accept the 3 tickets I bought, I discovered all they have the same barcode which is \"SICK\" Today, the validation machine in the bus doesn't want to validate the the new ticket I bought before inter the bus. so till now I lost 4 ticks ,,how can I trust you???????",
+      "likes": 12,
+      "date": "May 27, 2025",
+      "iso_date": "2025-05-27T05:42:27Z"
+    },
+    {
+      "id": "fe0e99f4-7ce4-4ef9-943b-d5ff850e1585",
+      "title": "Jakub Martiník",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocKeOio20MHsqZ1OdaBaT9wjv-VQLP4w_QlKyDinmdoaYEdF7w=mo",
+      "rating": 1.0,
+      "snippet": "This is the worst transport app I have ever used. It is painfully slow, constantly logs me out, and the interface is confusing and unfriendly. I cannot buy more than one ticket at once, the “do not display again” invoice pop-up shows every time, and I am forced to pick a line even though the ticket is valid for all lines. I cannot change the “valid from” time either. Honestly, it makes me wonder if any QA has ever even tested this app.",
+      "likes": 10,
+      "date": "September 06, 2025",
+      "iso_date": "2025-09-06T05:36:27Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "We’re sorry you’re experiencing these issues. Please report all problems via our form or by phone, this helps us identify errors and improve the app: https://reklamacje.systemfala.pl, tel.: +48 585 733 585",
+        "date": "September 15, 2025",
+        "iso_date": "2025-09-15T10:26:44Z"
+      }
+    },
+    {
+      "id": "350fd3d0-57c5-4fac-bee5-4b066b902bc4",
+      "title": "Mateusz",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocK1SJ5TCIJiPhaDeLI7pzr1Eo7-yI1GEwNH8_QFo-T7QmcqjQ=mo",
+      "rating": 1.0,
+      "snippet": "Problem while login in. I can't even enter my login data on the login button. Removing the app, clearing data and cache, and changing the default app haven't helped.",
+      "likes": 2,
+      "date": "October 04, 2025",
+      "iso_date": "2025-10-04T02:16:36Z"
+    },
+    {
+      "id": "775cc1eb-43ef-4f49-a552-ac3aba1417bb",
+      "title": "Aleksander Stankowski",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocI5w2ANfr50t5NcoJ30xnxxq0mbBJZF9SHT0FsK4kTyYjWUww=mo",
+      "rating": 1.0,
+      "snippet": "App is annoying. It keeps logging you out. It is hard to find the ticket you want to buy.",
+      "likes": 3,
+      "date": "December 06, 2025",
+      "iso_date": "2025-12-06T21:52:21Z"
+    },
+    {
+      "id": "8069c6ac-ded6-4bc6-91ba-b0effd644326",
+      "title": "Liire",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjUXamfiBXdKtH-W22hL4VKacV19oGvsBVT0U7NaOQQrx11UpBgBCw",
+      "rating": 1.0,
+      "snippet": "the app is full of bugs and issues, also it logs you out every time you close the app At this point im just stuck with it, because my employer was only able to buy me a corporate pass for transport in this system i'd rather stick with jakdojade",
+      "likes": 12,
+      "date": "April 16, 2025",
+      "iso_date": "2025-04-16T14:17:46Z"
+    },
+    {
+      "id": "731a9336-1820-4f8f-a6dc-e9e12a0044b6",
+      "title": "Petyo Zhechev",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjV7TCHxnZReFD5IBCxoU3BS08BU47N6n3DLx7bOWGHCgGuL05HwbQ",
+      "rating": 1.0,
+      "snippet": "As good as a bachelor's students web app project. Looks good. Doesn't work. None of the payment methods work and the UI keeps running you in circles and dead ends",
+      "likes": 17,
+      "date": "June 17, 2025",
+      "iso_date": "2025-06-17T14:29:55Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "Dziękujemy za opinię i przepraszamy za trudności. Pracujemy nad usprawnieniem płatności i nawigacji w aplikacji. Prosimy o zgłoszenie szczegółów przez formularz: https://reklamacje.systemfala.pl – pozwoli nam to szybciej rozwiązać problem.",
+        "date": "June 18, 2025",
+        "iso_date": "2025-06-18T10:03:06Z"
+      }
+    },
+    {
+      "id": "15c3eb4d-088a-4459-94ee-89c50805d442",
+      "title": "Aliaksandr Roussak",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjWfB92ILiC9YQSgIudJz938rflhCTTVR8vPcYd2JQVdJ9v89F3d",
+      "rating": 1.0,
+      "snippet": "More a week expired after last upgrade. Forcing logout due to consent download error! Your Software Quality team should be fired for the missed bug in production. Dno!",
+      "likes": 5,
+      "date": "April 01, 2024",
+      "iso_date": "2024-04-01T12:31:18Z"
+    },
+    {
+      "id": "1410d193-c5ae-4f7d-ab2a-d579a278f831",
+      "title": "JD",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocJFy55yRL95gL6Q7dCiPXybCas4JIbQBTfPCxYaDrq6p0f0Qw=mo",
+      "rating": 1.0,
+      "snippet": "Doesn't work. Took my money to confirm the payment method twice. When I try to buy a ticket, the option to pay is greyed out. Any other app is better than this",
+      "likes": 8,
+      "date": "December 05, 2024",
+      "iso_date": "2024-12-05T09:18:39Z"
+    },
+    {
+      "id": "ba83dd67-ba44-4657-8457-3a5e1c090653",
+      "title": "Rega9",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjV0Aitu7uUxw_P08GKhu3nmNWEEbKW_jdyW7EJF7VIJDCw8TX2B",
+      "rating": 1.0,
+      "snippet": "What is this joke of an app? I literally cannot buy a ticket, it's non-functional. I tried logging in and it says my account is already assigned somewhere else? Why do you force people to use this app when it's just not functioning properly?",
+      "likes": 9,
+      "date": "September 02, 2025",
+      "iso_date": "2025-09-02T07:00:15Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "Please log in at https://systemfala.pl → Settings → Identifiers, block those linked to your device, then clear the app's data and cache, uninstall, and reinstall the app. We support Chrome, Firefox, Opera, and Samsung Browser. Log in manually by entering your email and password and checking \"Remember me.\"",
+        "date": "September 12, 2025",
+        "iso_date": "2025-09-12T10:16:53Z"
+      }
+    },
+    {
+      "id": "13e7627a-c1dc-4ecb-8d52-0e592115362f",
+      "title": "Jack Black",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjVxjfTSaILCrkq87quRQEB4io47IbcwPkq5yeWGBmvL80ZDUU8x9g",
+      "rating": 2.0,
+      "snippet": "Looks pretty and promises a lot but none of the fundamentals work. Can't even report an error without getting an error back.",
+      "likes": 5,
+      "date": "January 17, 2025",
+      "iso_date": "2025-01-17T05:52:07Z"
+    },
+    {
+      "id": "baa4af96-5e58-48a6-97dd-b01356a42add",
+      "title": "M W",
+      "avatar": "https://play-lh.googleusercontent.com/a/ACg8ocLpP6FBtmcq0EDuwOA9wpLrKtYzovqXklbCmvYKexR5W9WDjcc=mo",
+      "rating": 1.0,
+      "snippet": "Foesn't work and demands critical personal info! Nothing works at all and steals your personal data for a bus ticket. Cannot find bus stops, cannot login, cannot pay. Public money wasted again, there should be criminal charges for this whole FALA bs. Just spare the unpaid intern who made the app using chatgpt.",
+      "likes": 16,
+      "date": "August 05, 2025",
+      "iso_date": "2025-08-05T12:29:46Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "Please provide more details about the issue, as the current message does not allow us to assist you effectively. We encourage you to report the problem via the form: https://reklamacje.systemfala.pl, by phone: +48 585 733 585, or by email: info@systemfala.pl. Every opinion helps us improve.",
+        "date": "August 05, 2025",
+        "iso_date": "2025-08-05T13:43:30Z"
+      }
+    },
+    {
+      "id": "5128ab2c-6e00-4b94-bcbc-61fa696df5c0",
+      "title": "Merlin Gaillard",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjWcfJ7FfGrOn4XdzeJP1bSMZ2h_W92S4zU2bk8RgqXemZPeDph2lw",
+      "rating": 1.0,
+      "snippet": "Impossible to use the app without \"personalisation\", meaning giving personal informations and photos, and even when I try it just tells me \"error... Awaiting personalisation\".",
+      "likes": 6,
+      "date": "August 07, 2025",
+      "iso_date": "2025-08-07T16:12:02Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "Please try personalizing your account at https://systemfala.pl/. It's also worth clearing the app’s memory and cache, uninstalling and reinstalling it. In your device settings, make sure the default browser is Chrome, Samsung, Opera, or Firefox. If issues persist, visit https://reklamacje.systemfala.pl. A profile photo is not required.",
+        "date": "August 08, 2025",
+        "iso_date": "2025-08-08T13:49:50Z"
+      }
+    },
+    {
+      "id": "928b1f4d-2fd0-4f9e-834f-50de72d22f23",
+      "title": "pawle",
+      "avatar": "https://play-lh.googleusercontent.com/a-/ALV-UjW4pLg5FCdoKTfyNSU2fL0i17o9JnBiCqAtW9YKP7-LZ81445qn",
+      "rating": 1.0,
+      "snippet": "app is barely functional but now im FORCED to use it cause i can't buy monthly tickets in other apps anymore. the city is paying them so much money it would be cheaper to make public transport FREE. also stop logging me out",
+      "likes": 12,
+      "date": "August 31, 2025",
+      "iso_date": "2025-08-31T19:37:20Z",
+      "response": {
+        "title": "SystemFALA",
+        "snippet": "We’re sorry for the inconvenience. Please log in manually using your email and password, not via Google or other methods, as these can cause the app to log out. If you encounter any errors, please report them through the form: https://reklamacje.systemfala.pl or by phone at +48 585 733 585",
+        "date": "September 08, 2025",
+        "iso_date": "2025-09-08T09:09:45Z"
+      }
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?all_reviews=true&engine=google_play_product&gl=pl&hl=en&next_page_token=CrsBIrIBAXp1laBmgIR-kHc23SZNCQutZCo1Ar7G85EZbLZANBie8xOEzzag79-UhTzpx_cN4i6NRbn8EhjxAcAbDl4ij_Ep6bdiwg9iS67QsvduMZUE9LpcZPBrDpx5wo57goUnacXRtkCEquGtCcg4rYSmuohBMM3RaPFmfmaU5Na0Zr6KWQKwZKN8-TZ8RIcmJmJYPRs1vxRi5LhQTEG1DNH86tieVm-Eq54a-hsHac_UeK8eZijh5YnOBg&platform=phone&product_id=pl.assecods.innompa.systemfala&sort_by=1&store=apps",
+    "next_page_token": "CrsBIrIBAXp1laBmgIR-kHc23SZNCQutZCo1Ar7G85EZbLZANBie8xOEzzag79-UhTzpx_cN4i6NRbn8EhjxAcAbDl4ij_Ep6bdiwg9iS67QsvduMZUE9LpcZPBrDpx5wo57goUnacXRtkCEquGtCcg4rYSmuohBMM3RaPFmfmaU5Na0Zr6KWQKwZKN8-TZ8RIcmJmJYPRs1vxRi5LhQTEG1DNH86tieVm-Eq54a-hsHac_UeK8eZijh5YnOBg"
   }
-]
+}
