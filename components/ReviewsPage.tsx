@@ -204,7 +204,7 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
 
       {/* Footer */}
       <footer className="mt-16 border-t border-gray-200 py-8 text-center text-xs text-gray-400">
-        <p>© {new Date().getFullYear()} FALA · All reviews are from verified platforms</p>
+        <p>© {new Date().getFullYear()} Faluj z Falą · This app not affliated with SystemFala and InnoBaltica · All reviews are from verified platforms</p>
       </footer>
     </main>
   );
