@@ -24,35 +24,35 @@ const tabs: { id: Source; label: string; color: string; glowClass: string; activ
   {
     id: "all",
     label: "ALL",
-    color: "var(--neon-white)",
-    glowClass: "neon-glow-white",
-    activeBg: "rgba(255,255,255,0.08)",
+    color: "var(--neon-red)",
+    glowClass: "neon-glow-red",
+    activeBg: "rgba(204,0,34,0.06)",
   },
   {
     id: "google_maps",
     label: "Google Maps",
     color: "var(--neon-blue)",
     glowClass: "neon-glow-blue",
-    activeBg: "rgba(0,212,255,0.08)",
+    activeBg: "rgba(0,112,192,0.06)",
   },
   {
     id: "apple_appstore",
     label: "Apple App Store",
     color: "var(--neon-purple)",
     glowClass: "neon-glow-purple",
-    activeBg: "rgba(191,95,255,0.08)",
+    activeBg: "rgba(124,58,237,0.06)",
   },
   {
     id: "google_playstore",
     label: "Google Play Store",
     color: "var(--neon-green)",
     glowClass: "neon-glow-green",
-    activeBg: "rgba(57,255,20,0.08)",
+    activeBg: "rgba(26,127,55,0.06)",
   },
 ];
 
 const sourceColorMap: Record<Source, string> = {
-  all: "neon-text-white",
+  all: "neon-text-red",
   google_maps: "neon-text-blue",
   apple_appstore: "neon-text-purple",
   google_playstore: "neon-text-green",
@@ -87,28 +87,28 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
   return (
     <main className="min-h-screen" style={{ background: "var(--background)" }}>
       {/* Header */}
-      <header className="relative overflow-hidden border-b border-white/10 py-12 px-6 text-center">
-        {/* Ambient glow background */}
+      <header className="relative overflow-hidden border-b border-gray-200 py-12 px-6 text-center">
+        {/* Ambient accent background */}
         <div
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(ellipse 70% 60% at 50% -10%, rgba(0,212,255,0.18) 0%, transparent 70%)",
+              "radial-gradient(ellipse 70% 60% at 50% -10%, rgba(204,0,34,0.08) 0%, transparent 70%)",
           }}
         />
         <p
           className="relative mb-2 text-xs font-semibold uppercase tracking-[0.3em]"
-          style={{ color: "var(--neon-blue)" }}
+          style={{ color: "var(--neon-red)" }}
         >
           Customer Reviews
         </p>
         <h1
-          className="relative text-5xl font-extrabold tracking-tight neon-text-white"
+          className="relative text-5xl font-extrabold tracking-tight neon-text-red font-mono-display"
           style={{ letterSpacing: "-0.02em" }}
         >
           FALA
         </h1>
-        <p className="relative mt-3 text-base text-white/50">
+        <p className="relative mt-3 text-base text-gray-500">
           What our customers are saying across all platforms
         </p>
       </header>
@@ -130,16 +130,16 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
                 key={tab.id}
                 className="rounded-xl border p-4 text-center transition-all duration-200"
                 style={{
-                  borderColor: tab.color,
-                  background: `rgba(0,0,0,0.4)`,
-                  boxShadow: `0 0 12px ${tab.color}33`,
+                  borderColor: `${tab.color}55`,
+                  background: `rgba(255,255,255,0.8)`,
+                  boxShadow: `0 1px 4px rgba(0,0,0,0.06)`,
                 }}
               >
                 <p className="text-2xl font-bold" style={{ color: tab.color }}>
                   {count}
                 </p>
-                <p className="mt-1 text-xs text-white/50">{tab.label}</p>
-                <p className="mt-1 text-sm font-semibold text-yellow-300">
+                <p className="mt-1 text-xs text-gray-500">{tab.label}</p>
+                <p className="mt-1 text-sm font-semibold text-amber-600">
                   ★ {count > 0 ? avg.toFixed(1) : "–"}
                 </p>
               </div>
@@ -156,7 +156,7 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
                 className={`rounded-full border px-5 py-2 text-sm font-semibold transition-all duration-200 focus:outline-none ${
-                  isActive ? tab.glowClass : "border-white/20 text-white/40 hover:border-white/40 hover:text-white/70"
+                  isActive ? tab.glowClass : "border-gray-200 text-gray-400 hover:border-gray-400 hover:text-gray-600"
                 }`}
                 style={
                   isActive
@@ -178,8 +178,8 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
             {sourceLabelMap[activeTab]}
           </h2>
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-extrabold text-yellow-300">★ {averageRating}</span>
-            <span className="text-sm text-white/40">
+            <span className="text-2xl font-extrabold text-amber-600">★ {averageRating}</span>
+            <span className="text-sm text-gray-400">
               {displayed.length} review{displayed.length !== 1 ? "s" : ""}
             </span>
           </div>
@@ -187,7 +187,7 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
 
         {/* Review cards */}
         {displayed.length === 0 ? (
-          <p className="py-20 text-center text-white/30">No reviews yet.</p>
+          <p className="py-20 text-center text-gray-400">No reviews yet.</p>
         ) : (
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {displayed.map((review) => (
@@ -203,7 +203,7 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
       </div>
 
       {/* Footer */}
-      <footer className="mt-16 border-t border-white/10 py-8 text-center text-xs text-white/30">
+      <footer className="mt-16 border-t border-gray-200 py-8 text-center text-xs text-gray-400">
         <p>© {new Date().getFullYear()} FALA · All reviews are from verified platforms</p>
       </footer>
     </main>
