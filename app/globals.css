@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f7f7f8;
-  --foreground: #111111;
+  --background: #060f1e;
+  --foreground: #e8f0ff;
+
+  /* Surface / card layers */
+  --surface: #0a1628;
+  --surface-elevated: #0f1f38;
+  --border-subtle: #1a2d4f;
+
+  /* Muted text */
+  --muted: #7a8fac;
 
   /* Accent colours */
   --neon-blue: #0070c0;
@@ -15,6 +23,10 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-border-subtle: var(--border-subtle);
+  --color-muted: var(--muted);
   --color-neon-blue: var(--neon-blue);
   --color-neon-green: var(--neon-green);
   --color-neon-red: var(--neon-red);
@@ -32,29 +44,29 @@ body {
   font-family: "JetBrains Mono", "Space Mono", "Fira Code", "Source Code Pro", ui-monospace, "Cascadia Code", Consolas, "Courier New", monospace;
 }
 
-/* Accent border/glow utilities */
+/* Accent border/glow utilities — real glow on dark background */
 .neon-glow-blue {
-  box-shadow: 0 0 0 2px var(--neon-blue);
+  box-shadow: 0 0 8px 1px rgba(0,112,192,0.55), 0 0 0 1.5px var(--neon-blue);
   border-color: var(--neon-blue);
   color: var(--neon-blue);
 }
 .neon-glow-green {
-  box-shadow: 0 0 0 2px var(--neon-green);
+  box-shadow: 0 0 8px 1px rgba(26,127,55,0.55), 0 0 0 1.5px var(--neon-green);
   border-color: var(--neon-green);
   color: var(--neon-green);
 }
 .neon-glow-red {
-  box-shadow: 0 0 0 2px var(--neon-red);
+  box-shadow: 0 0 8px 1px rgba(204,0,34,0.55), 0 0 0 1.5px var(--neon-red);
   border-color: var(--neon-red);
   color: var(--neon-red);
 }
 .neon-glow-yellow {
-  box-shadow: 0 0 0 2px var(--neon-yellow);
+  box-shadow: 0 0 8px 1px rgba(176,120,0,0.55), 0 0 0 1.5px var(--neon-yellow);
   border-color: var(--neon-yellow);
   color: var(--neon-yellow);
 }
 .neon-glow-purple {
-  box-shadow: 0 0 0 2px var(--neon-purple);
+  box-shadow: 0 0 8px 1px rgba(124,58,237,0.55), 0 0 0 1.5px var(--neon-purple);
   border-color: var(--neon-purple);
   color: var(--neon-purple);
 }

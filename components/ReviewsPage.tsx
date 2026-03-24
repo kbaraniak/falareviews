@@ -96,16 +96,32 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
       ? (displayed.reduce((sum, r) => sum + r.rating, 0) / displayed.length).toFixed(1)
       : "–";
 
+  const handleTabMouseEnter = (e: React.MouseEvent<HTMLButtonElement>, isActive: boolean) => {
+    if (!isActive) {
+      const el = e.currentTarget;
+      el.style.borderColor = "var(--muted)";
+      el.style.color = "var(--foreground)";
+    }
+  };
+
+  const handleTabMouseLeave = (e: React.MouseEvent<HTMLButtonElement>, isActive: boolean) => {
+    if (!isActive) {
+      const el = e.currentTarget;
+      el.style.borderColor = "var(--border-subtle)";
+      el.style.color = "var(--muted)";
+    }
+  };
+
   return (
     <main className="min-h-screen" style={{ background: "var(--background)" }}>
       {/* Header */}
-      <header className="relative overflow-hidden border-b border-gray-200 py-12 px-6 text-center">
-        {/* Ambient accent background */}
+      <header className="relative overflow-hidden pb-0 pt-12 px-6 text-center" style={{ background: "var(--surface)" }}>
+        {/* Deep radial glow from top */}
         <div
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(ellipse 70% 60% at 50% -10%, rgba(204,0,34,0.08) 0%, transparent 70%)",
+              "radial-gradient(ellipse 80% 60% at 50% -5%, rgba(0,112,192,0.18) 0%, rgba(204,0,34,0.08) 40%, transparent 70%)",
           }}
         />
         <p
@@ -116,13 +132,28 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
         </p>
         <h1
           className="relative text-5xl font-extrabold tracking-tight neon-text-red font-mono-display"
-          style={{ letterSpacing: "-0.02em" }}
+          style={{ letterSpacing: "-0.02em", textShadow: "0 0 24px rgba(204,0,34,0.45)" }}
         >
           FALA
         </h1>
-        <p className="relative mt-3 text-base text-gray-500">
+        <p className="relative mt-3 text-base" style={{ color: "var(--muted)" }}>
           What our customers are saying across all platforms
         </p>
+
+        {/* Wave decoration */}
+        <div className="relative mt-8 h-12 w-full overflow-hidden">
+          <svg
+            viewBox="0 0 1200 48"
+            preserveAspectRatio="none"
+            className="absolute inset-0 h-full w-full"
+            aria-hidden="true"
+          >
+            <path
+              d="M0,24 C200,48 400,0 600,24 C800,48 1000,0 1200,24 L1200,48 L0,48 Z"
+              style={{ fill: "var(--background)" }}
+            />
+          </svg>
+        </div>
       </header>
 
       <div className="mx-auto max-w-5xl px-4 py-10">
@@ -135,13 +166,18 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
                 className={`rounded-full border px-5 py-2 text-sm font-semibold transition-all duration-200 focus:outline-none ${
-                  isActive ? tab.glowClass : "border-gray-200 text-gray-400 hover:border-gray-400 hover:text-gray-600"
+                  isActive ? tab.glowClass : ""
                 }`}
                 style={
                   isActive
                     ? { background: tab.activeBg }
-                    : {}
+                    : {
+                        borderColor: "var(--border-subtle)",
+                        color: "var(--muted)",
+                      }
                 }
+                onMouseEnter={(e) => handleTabMouseEnter(e, isActive)}
+                onMouseLeave={(e) => handleTabMouseLeave(e, isActive)}
               >
                 {tab.label}
               </button>
@@ -177,8 +213,8 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
             {sourceLabelMap[activeTab]}
           </h2>
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-extrabold text-amber-600">★ {averageRating}</span>
-            <span className="text-sm text-gray-400">
+            <span className="text-2xl font-extrabold text-amber-400">★ {averageRating}</span>
+            <span className="text-sm" style={{ color: "var(--muted)" }}>
               {displayed.length} review{displayed.length !== 1 ? "s" : ""}
             </span>
           </div>
@@ -186,7 +222,7 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
 
         {/* Review cards */}
         {displayed.length === 0 ? (
-          <p className="py-20 text-center text-gray-400">No reviews yet.</p>
+          <p className="py-20 text-center" style={{ color: "var(--muted)" }}>No reviews yet.</p>
         ) : (
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {displayed.map((review) => (
@@ -202,7 +238,10 @@ export function ReviewsPage({ googleMaps, appleAppStore, googlePlayStore }: Revi
       </div>
 
       {/* Footer */}
-      <footer className="mt-16 border-t border-gray-200 py-8 text-center text-xs text-gray-400">
+      <footer
+        className="mt-16 py-8 text-center text-xs"
+        style={{ borderTop: "1px solid var(--border-subtle)", color: "var(--muted)" }}
+      >
         <p>© {new Date().getFullYear()} Faluj z Falą · This app not affliated with SystemFala and InnoBaltica · All reviews are from verified platforms</p>
       </footer>
     </main>
